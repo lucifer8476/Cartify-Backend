@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 // MongoDB connection
 try{
-mongoose.connect("mongodb://localhost:27017/userAuth", {
+mongoose.connect("mongodb://127.0.0.1:27017/userAuth", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

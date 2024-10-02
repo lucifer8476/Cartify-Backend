@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 // MongoDB connection
 try{
-mongoose.connect("mongodb://127.0.0.1:27017/userAuth", {
+mongoose.connect("mongodb+srv://mukulrajput7820:mukulrajput@cluster0.4rdaa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/userAuth", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
